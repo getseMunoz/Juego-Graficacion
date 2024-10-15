@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/game.js"></script>
+</head>
+<body>
+    <div class="character"></div>
+    <div class="obstacle"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.js"></script>
+
+ <!-- Audio de fondo -->
+ <audio id="background-music" src="/audio/Vecinos.mp3" loop></audio>
+    
+ <!-- Audio para cuando pierdas -->
+ <audio id="game-over-music" src="./audio/musicaGameOver.mp3"></audio>
+
+ <div id="inicio" style="display: none;">
+    <h1>¡Bienvenido al Juego!</h1>
+    <p>Debes atrapar los los arboles y evitar que pasen 15. ¡Buena suerte!</p>
+    <button id="start-button">Iniciar Juego</button>
+</div>
+
+  
+</body>
+</html>

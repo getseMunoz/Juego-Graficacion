@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: url('/img/fondo1.jpeg') no-repeat center center fixed; /* Agregar la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
+}
+
+/* Restante del código */
+.character, .obstacle {
+    position: absolute;
+}
+
+.character {
+    width: 90px;
+    height: 90px;
+    background-image: url('/img/personaje.png');
+    background-size: cover;
+}
+
+.obstacle {
+    width: 70px;
+    height: 70px;
+    background-image: url('/img/obstaculo.png');
+    background-size: cover;
+    position: absolute;
+}
